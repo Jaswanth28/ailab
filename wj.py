@@ -1,6 +1,6 @@
 from collections import defaultdict
 c=0
-jug1, jug2, aim = 4, 3, 2
+jug1, jug2, aim = 4, 3, 3
 visited = defaultdict(lambda: False)
 def waterJugSolver(amt1, amt2,c):
     c+=1
